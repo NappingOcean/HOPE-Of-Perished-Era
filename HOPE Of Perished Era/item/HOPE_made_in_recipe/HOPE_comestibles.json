@@ -51,8 +51,8 @@
     },
     {
         "type":"COMESTIBLE",
-        "id":"HOPE_joke_liquid",
-        "name":{"str_sp":"Joke"},
+        "id":"HOPE_joy_liquid",
+        "name":{"str_sp":"조이"},
         "comestible_type":"DRINK",
         "category":"drugs",
         "description":"수상쩍은 제조법을 따라서 만든 기묘한 물약입니다. 좀비 피처럼 걸쭉하거나 하지는 않습니다.",
@@ -70,8 +70,8 @@
     },
     {
         "type":"COMESTIBLE",
-        "id":"HOPE_joke_serious",
-        "name":{"str_sp":"진지한 Joke"},
+        "id":"HOPE_joy_serious",
+        "name":{"str_sp":"진지한 조이"},
         "comestible_type":"FOOD",
         "category":"drugs",
         "description":"극도로 수상한 제조법을 따라서 만든 기묘한 알약입니다. 좀비 머리에서 나온 걸로 이런 걸 만들다니 제정신입니까?",

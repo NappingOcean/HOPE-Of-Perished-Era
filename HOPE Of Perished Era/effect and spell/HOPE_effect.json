@@ -13,7 +13,7 @@
         "rating":"bad",
         "max_intensity": 4,
         "permanent":true,
-        "miss_messages":[["Joke를 먹은지 얼마나 됐죠?",1]],
+        "miss_messages":[["조이를 먹은지 얼마나 됐죠?",1]],
         "morale":"morale_HAP",
         "base_mods":{
             "morale":[-5],
@@ -33,7 +33,7 @@
     {
         "id": "morale_HAP",
         "type": "morale_type",
-        "text": "Joke가 필요해",
+        "text": "조이가 필요해",
         "permanent":true
     },
     {
@@ -71,7 +71,7 @@
     {
         "id": "morale_JOYFUL",
         "type": "morale_type",
-        "text": "혈관에 Joke가 감돌고 있음",
+        "text": "혈관에 조이가 감돌고 있음",
         "permanent":true
     }
         

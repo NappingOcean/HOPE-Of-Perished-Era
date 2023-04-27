@@ -15,7 +15,7 @@
         "type":"vitamin",
         "vit_type":"drug",
         "id":"JOYFUL",
-        "name":{"str":"즐거움"},
+        "name":{"str":"조이"},
         "min":0,
         "max":1000,
         "rate":"10 m",
