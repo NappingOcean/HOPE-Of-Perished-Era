@@ -157,7 +157,7 @@
     },
     {
         "type":"recipe",
-        "result":"HOPE_joke",
+        "result":"HOPE_joy_liquid",
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_DRUGS",
         "skill_used": "cooking",
@@ -187,7 +187,7 @@
     },
     {
         "type":"recipe",
-        "result":"HOPE_joke_serious",
+        "result":"HOPE_joy_serious",
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_DRUGS",
         "skill_used": "cooking",
