@@ -1,0 +1,35 @@
+[
+    {
+        "id":"manual_MA_packed",
+        "type":"GENERIC",
+        "symbol":"?",
+        "color":"cyan",
+        "name":{"str_sp":"의문의 무술서"},
+        "description":"HOPE 레조네이터로부터 힌트를 얻어 작성한 무술서입니다. 어떤 내용인지는 개봉해봐야 알 것 같습니다.",
+        "price":30,
+        "volume":"250 ml",
+        "weight":"440 g",
+        "material":["paper"],
+        "use_action":{"type":"unpack", "group":"HOPE_MA_books_unpack_group", "items_fit":true, "filthy_volume_treshold":"10 L"}
+    },
+    {
+        "id":"recipe_HOPE",
+        "type":"BOOK",
+        "symbol":"?",
+        "color":"blue",
+        "name":{"str_sp":"학생 연구 보고서: 담당교수 - 헨델슨"},
+        "//":"Student lab report: Advisor - Hendelson",
+        "description":"XE037 감염체의 해마상 융기에서 발견한 물질에 대한 독자적인 연구를 다룬 연구 노트입니다. 학생의 이름은 지워졌지만 담당 교수의 서명은 똑바로 적혀 있습니다. 처음 몇 장은 공식이나 설계도로 가득하지만, 어느 페이지를 기점으로 처지를 비관하면서도 연구를 멈추지 않은 절망어린 기록들로 가득합니다.",
+        "price": 2000,
+        "looks_like":"recipe_lab_cvd",
+        "weight":"1700 g",
+        "volume":"500 ml",
+        "material":["paper"],
+        "skill":"electronics",
+        "required_level": 8,
+        "max_level": 8,
+        "intelligence": 10,
+        "time": "30 m",
+        "fun": -2
+    }
+]

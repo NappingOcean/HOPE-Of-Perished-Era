@@ -1,0 +1,31 @@
+[
+{
+	"type":"item_group",
+	"//":"미개봉 HOPE 레조네이터는 다음 중에 하나를 드랍합니다.",
+	"id":"HOPE_reso_unpack_group",
+	"subtype":"distribution",
+	"items":[
+		"HOPE_reso_1",
+		"HOPE_reso_2",
+		"HOPE_reso_3",
+		"HOPE_reso_4",
+		"HOPE_reso_5",
+		"HOPE_reso_6",
+		"HOPE_reso_7",
+		"HOPE_reso_8",
+		"HOPE_reso_9",
+		"HOPE_reso_10",
+		"HOPE_reso_11",
+		"HOPE_reso_12",
+		"HOPE_reso_MA_1",
+		"HOPE_reso_MA_2",
+		"HOPE_reso_MA_3",
+		"HOPE_reso_MA_4",
+		"HOPE_reso_rcp_1",
+		"HOPE_reso_rcp_2",
+		"HOPE_reso_rcp_3",
+		"HOPE_reso_rcp_4",
+		"HOPE_reso_rcp_5"
+	]
+}
+]

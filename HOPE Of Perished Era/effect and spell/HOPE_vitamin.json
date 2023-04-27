@@ -1,0 +1,25 @@
+[
+    {
+        "type":"vitamin",
+        "vit_type":"drug",
+        "id":"HAP",
+        "//":"HOPE Addictive Psychosis",
+        "name":{"str":"HAP"},
+        "min":-1600,
+        "max":0,
+        "rate":"0 turn",
+        "deficiency":"eff_HAP",
+        "disease":[[-20, -99],[-100,-399],[-400, -799], [-800,-1600]]
+    },
+    {
+        "type":"vitamin",
+        "vit_type":"drug",
+        "id":"JOYFUL",
+        "name":{"str":"즐거움"},
+        "min":0,
+        "max":1000,
+        "rate":"10 m",
+        "excess":"eff_JOYFUL",
+        "disease_excess":[[41, 400],[401, 720], [721, 960], [961, 1000]]
+    }
+]

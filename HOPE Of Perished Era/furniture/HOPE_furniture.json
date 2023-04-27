@@ -1,0 +1,72 @@
+[
+    {
+        "type":"furniture",
+        "abstract":"HOPE_RISE_furn_base",
+        "name":"abstract HOPE RISE",
+        "symbol":"O",
+        "color":"light_cyan",
+        "description":"이 추상화된 가구가 보이면 뭔가 잘못된겁니다.",
+        "move_cost_mod":-1,
+        "coverage": 90,
+        "required_str":-1,
+        "flags":["EASY_DECONSTRUCT", "WALL", "NOITEM"],
+        "deconstruct":{"items":[{"item":"HOPE_RISE","count":1}]},
+        "bash":{
+            "str_min": 8,
+            "str_max": 24,
+            "sound": "끼기기기긱!",
+            "sound_fail": "채앵!",
+            "items" :[
+                {"item":"scrap", "count":[4, 6]},
+                {"item":"plastic_chunk", "count":[2, 6]},
+                {"item":"steel_chunk", "count":[2, 4]},
+                {"item":"sheet_metal_small", "count":[0, 3]},
+                {"item":"processor","prob":30},
+                {"item":"RAM","prob":30}
+            ]
+        },
+        "//":"HOPE Restricted Incubating Spectra Estimator"
+    },
+    {
+        "type":"furniture",
+        "id":"HOPE_RISE_furn",
+        "name":"HOPE RISE (부팅 중)",
+        "symbol":"O",
+        "color":"light_cyan",
+        "description":"설치된 HOPE RISE입니다. 충분한 양의 전원이 있어야 부팅이 가능할 것입니다.",
+        "copy-from":"HOPE_RISE_furn_base",
+        "examine_action": "transform",
+        "transforms_into":"HOPE_RISE_furn_off",
+        "prompt":"HOPE RISE 전원 끄기",
+        "message":"부팅 중이던 장치가 빛을 잃고 꺼졌습니다.",
+        "active":["charge_watcher",{"min_power":30000, "transform":{"id": "HOPE_RISE_furn_on", "msg":"HOPE RISE가 성공적으로 부팅되었습니다."}}]
+    },
+    {
+        "type":"furniture",
+        "id":"HOPE_RISE_furn_on",
+        "name":"HOPE RISE (켜짐)",
+        "symbol":"O",
+        "color":"light_cyan",
+        "description":"설치된 HOPE RISE입니다. 콘솔에는 HOPE 추산 절차가 대기 중입니다. 전력을 지속적으로 소모하니 사용이 끝나면 꼭 전원을 꺼주세요.",
+        "copy-from":"HOPE_RISE_furn_base",
+        "examine_action": "transform",
+        "transforms_into":"HOPE_RISE_furn_off",
+        "prompt":"HOPE RISE 전원 끄기",
+        "message":"장치가 빛을 잃고 꺼졌습니다.",
+        "crafting_pseudo_item":"HOPE_RISE_fake_tool", 
+        "active":["steady_consumer", {"power":100, "consume_every":"600 s", "transform":{"id":"HOPE_RISE_furn_off", "msg":"HOPE RISE 를 유지할 전력이 모자라 전원이 꺼졌습니다."}}]
+    },
+    {
+        "type":"furniture",
+        "id":"HOPE_RISE_furn_off",
+        "name": "HOPE RISE (꺼짐)",
+        "symbol":"O",
+        "color":"light_cyan",
+        "description":"설치된 HOPE RISE입니다. 전원은 현재 꺼져 있습니다.",
+        "copy-from":"HOPE_RISE_furn_base",
+        "examine_action": "transform",
+        "transforms_into":"HOPE_RISE_furn",
+        "prompt":"HOPE RISE 전원 켜기",
+        "message":"장치가 부팅되기 시작했습니다."
+    }
+]

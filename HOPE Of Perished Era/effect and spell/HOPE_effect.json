@@ -1,0 +1,78 @@
+[
+    {
+        "type":"effect_type",
+        "id":"eff_HAP",
+        "name":["이질감", "상실감", "공허감", "허무에 짓눌림"],
+        "desc":[
+            "어쩐지 이상한 기분이 듭니다.",
+            "소중한 무언가를 잃어버린 것 같습니다.",
+            "뭘 하더라도 나는 채워지지 못하고, 내 손에 쥔 모든 것은 모래처럼 빠져나갑니다.",
+            "이 삶에 대체 어떤 의미가 있나요? 내가 저 죽지 못한 이들과 과연 다를 게 있을까요?"
+        ],
+        "apply_message":"기분이 나빠지기 시작했습니다….",
+        "rating":"bad",
+        "max_intensity": 4,
+        "permanent":true,
+        "miss_messages":[["Joke를 먹은지 얼마나 됐죠?",1]],
+        "morale":"morale_HAP",
+        "base_mods":{
+            "morale":[-5],
+            "str_mod":[-1],
+            "dex_mod":[-1],
+            "per_mod":[-1],
+            "int_mod":[-1]
+        },
+        "scaling_mods":{
+            "morale":[-7],
+            "str_mod":[-1],
+            "dex_mod":[-0.7],
+            "per_mod":[-1.5],
+            "int_mod":[-1]
+        }
+    },
+    {
+        "id": "morale_HAP",
+        "type": "morale_type",
+        "text": "Joke가 필요해",
+        "permanent":true
+    },
+    {
+        "type":"effect_type",
+        "id":"eff_JOYFUL",
+        "name":["상쾌함", "고양감", "전능감", "초월"],
+        "desc":[
+            "기분이 무척 상쾌합니다.",
+            "가슴 깊은 곳에서 의욕과 용기가 샘솟습니다.",
+            "무엇이든 해낼 수 있을 것만 같습니다.",
+            "세상아 멈추어라! 너는 정말 아름답구나!"
+        ],
+        "rating":"good",
+        "max_intensity": 4,
+        "permanent":true,
+        "removes_effects":["eff_HAP"],
+        "morale":"morale_JOYFUL",
+        "base_mods":{
+            "morale":[30],
+            "str_mod":[2],
+            "dex_mod":[2],
+            "per_mod":[2],
+            "int_mod":[2],
+            "speed_mod":[20]
+        },
+        "scaling_mods":{
+            "morale":[15],
+            "str_mod":[1.4],
+            "dex_mod":[1.4],
+            "per_mod":[1.4],
+            "int_mod":[1.4],
+            "speed_mod":[6]
+        }
+    },
+    {
+        "id": "morale_JOYFUL",
+        "type": "morale_type",
+        "text": "혈관에 Joke가 감돌고 있음",
+        "permanent":true
+    }
+        
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "HOPE_RISE",
+        "type": "TOOL",
+        "//":"HOPE Restricted Incubating Spectra Estimator",
+        "name": { "str": "HOPE RISE" },
+        "description": "해마 기원 분광성 정수, HOPE는 정지된 화상 데이터만을 지니고 있습니다. 본 장치의 정식 명칭은 HOPE 한정적 배양 스펙트럼 추정 장치입니다. AI를 통해 HOPE가 가진 광학적 스펙트럼들을 분석하고 배양하여, 해당 데이터를 짧은 영상으로 복원할 수 있습니다.\n다만, 배양 데이터의 품질이 매우 우수함에도 불구하고, 알 수 없는 기준으로 HOPE를 선별하여 배양한다는 한계가 있습니다.",
+        "weight": "125000 g",
+        "volume": "6 L",
+        "price": 0,
+        "price_postapoc": 0,
+        "to_hit": -3,
+        "bashing": 6,
+        "cutting": 6,
+        "material": [ "steel", "aluminum", "plastic" ],
+        "symbol": "H",
+        "color": "cyan",
+        "use_action":{
+            "type":"deploy_furn",
+            "furn_type":"HOPE_RISE_furn"
+        }
+    }
+     
+]

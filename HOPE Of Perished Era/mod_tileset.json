@@ -1,0 +1,46 @@
+[
+    {
+        "type":"mod_tileset",
+        "compatibility":[ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+        "tiles-new":[
+            {
+                "file":"HOPE_mod_tileset.png",
+                "sprite_width": 32,
+                "sprite_height": 32,
+                "sprite_offset_x": 0,
+                "sprite_offset_y": 0,
+                "tiles":[
+                    {"id":"overlay_female_mutation_HUNGRYSOUL","fg":0, "rotates":false},
+                    {"id":"overlay_female_mutation_PITCH_HEART","fg":1, "rotates":false},
+                    {"id":"overlay_female_mutation_HOPESKIN","fg":2, "rotates":false},
+                    {"id":"overlay_female_mutation_HOPEHAND","fg":3, "rotates":false},
+                    {"id":"overlay_male_mutation_HUNGRYSOUL","fg":4, "rotates":false},
+                    {"id":"overlay_male_mutation_PITCH_HEART","fg":5, "rotates":false},
+                    {"id":"overlay_male_mutation_HOPESKIN","fg":6, "rotates":false},
+                    {"id":"overlay_male_mutation_HOPEHAND","fg":7, "rotates":false},
+                    {"id":"HOPE_orizuru", "fg":11, "rotates":false},
+                    {"id":"HOPE_HOPE", "fg":12, "rotates":false},
+                    {"id":"HOPE_joke", "fg":13, "rotates":false},
+                    {"id":"HOPE_joke_serious", "fg":14, "rotates":false},
+                    {"id":"HOPE_RISE", "fg":15, "rotates":false},
+                    {"id":["HOPE_RISE_furn", "HOPE_RISE_furn_off"], "fg":15, "rotates":false},
+                    {"id":"overlay_wielded_HOPE_RISE", "fg":15, "rotates":false},
+                    {
+                        "id":"HOPE_RISE_furn_on", "fg":[
+                            {"weight": 48,"sprite":16},
+                            {"weight": 12,"sprite":17},
+                            {"weight": 12,"sprite":18},
+                            {"weight": 12,"sprite":19},
+                            {"weight": 12,"sprite":20},
+                            {"weight": 12,"sprite":21},
+                            {"weight": 12,"sprite":22},
+                            {"weight": 12,"sprite":23}
+                        ],
+                        "rotates":false,
+                        "animated":true
+                    }
+                ]
+            }
+        ]
+    }
+]

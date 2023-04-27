@@ -1,0 +1,194 @@
+[
+    {
+        "type":"mutation_category",
+        "id": "HOPE_EATER",
+        "name": "HOPE 이터",
+        "threshold_mut": "THRESH_HOPE_EATER",
+        "mutagen_message": "갑작스럽게 마음이 식는 듯한 기분이 들었습니다.",
+        "mutagen_morale":-12,
+        "iv_message": "가슴 속에 무언가가 비워지는 기분입니다.",
+        "iv_morale":3,
+        "iv_fatigue": 3,
+        "memorial_message": "21그램을 덜어내다."
+    },
+    {
+        "type":"mutation",
+        "id":"ANIMALDISCORD",
+        "copy-from":"ANIMALDISCORD",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"PSYCHOPATH",
+        "copy-from":"PSYCHOPATH",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"KILLER",
+        "copy-from":"KILLER",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"LIAR",
+        "copy-from":"LIAR",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"INSOMNIA",
+        "copy-from":"INSOMNIA",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"HOARDER",
+        "copy-from":"HOARDER",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"MOODSWINGS",
+        "copy-from":"MOODSWINGS",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"BADTEMPER",
+        "copy-from":"BADTEMPER",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"SPIRITUAL",
+        "copy-from":"SPIRITUAL",
+        "extend":{"changes_to":["ATHEISM"]}
+    },
+    {
+        "type":"mutation",
+        "id":"INT_UP",
+        "copy-from":"INT_UP",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"INT_UP_2",
+        "copy-from":"INT_UP_2",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"PER_UP",
+        "copy-from":"PER_UP",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"PER_UP_2",
+        "copy-from":"PER_UP_2",
+        "extend":{"category":["HOPE_EATER"]}
+    },
+    {
+        "type":"mutation",
+        "id":"HUNGRYSOUL",
+        "name":{"str":"굶주린 영혼"},
+        "points": -3,
+        "description":"기묘한 허기가 감돕니다. Joke를 먹었을 때만 이 허기를 달랠 수 있습니다.",
+        "valid":false,
+        "category":["HOPE_EATER"],
+        "vitamin_rates":[["HAP", 900]]
+    },
+    {
+        "type":"mutation",
+        "id":"HOPE_FLUENT",
+        "name":{"str":"청산유수"},
+        "points":1,
+        "description":"언어중추가 자극되어, 혀에 기름칠한 듯 매끄럽게 말을 쏟아낼 수 있습니다. 듣는 이를 현혹케 하는 말솜씨를 얻습니다.",
+        "valid":false,
+        "category":["HOPE_EATER"],
+        "social_modifiers":{"persuade": 60}
+    },
+    {
+        "type": "mutation",
+        "id":"ATHEISM",
+        "name":{"str":"무신론자"},
+        "points": 0,
+        "description": "당신이 가지고 있던 신앙은 더 이상 당신 마음을 흔들지 못합니다. 알고 있던 그 모든 것들이 어째선지 무가치하게만 느껴집니다.",
+        "valid": false,
+        "prereqs":["SPIRITUAL"],
+        "category":[ "HOPE_EATER" ]
+    },
+    {
+        "type": "mutation",
+        "id":"THRESH_HOPE_EATER",
+        "name":{"str":"희망에 주린 자"},
+        "points": 1,
+        "description": "나는 특별하기에 살아남은 겁니다. 다른 이들이요? 내가 그걸 왜 걱정해야 하나요?",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+    {
+        "type": "mutation",
+        "id":"PITCH_HEART",
+        "name":{"str":"역청을 칠한 심장"},
+        "points": 3,
+        "description": "허전했던 가슴이 드디어 뭔가로 채워졌습니다. 상체의 물리방어력이 상승하지만, 이 답답한 느낌은 대체 뭘까요?",
+        "valid": false,
+        "encumbrance_always":[["torso", 6]],
+        "armor":[ {"parts":"torso", "cut":6, "bash":8, "stab":3, "bullet":4} ],
+        "threshreq":["THRESH_HOPE_EATER"],
+        "category":[ "HOPE_EATER" ]
+    },
+    {
+        "type": "mutation",
+        "id":"OPTIMAL_SLEEP",
+        "name":{"str":"수면 구조 효율화"},
+        "points": 1,
+        "description": "수면을 취하여 뇌가 손상을 복원할 때 필요없는 부분은 구태여 복원하지 않게 되었습니다. 그 결과 수면은 더욱 효율적으로 변하였습니다.",
+        "valid": false,
+        "prereqs":["PSYCHOPATH"],
+        "threshreq":["THRESH_HOPE_EATER"],
+        "category":[ "HOPE_EATER" ],
+        "fatigue_regen_modifier": 1.0
+    },
+    {
+        "type": "mutation",
+        "id":"HOPE_BRAIN",
+        "name":{"str":"활성 영역 재할당"},
+        "points": -3,
+        "description": "두뇌가 다른 방향으로 활성화되기 시작했습니다. 더욱 민감하고 더욱 영리해집니다.",
+        "valid": false,
+        "prereqs":["INT_UP_2"],
+        "prereqs2":["PER_UP_2"],        
+        "threshreq":["THRESH_HOPE_EATER"],
+        "category":[ "HOPE_EATER" ],
+        "passive_mods":{"int_mod":2, "per_mod":2}
+    },
+    {
+        "type":"mutation",
+        "id":"HOPESKIN",
+        "name":{"str":"빛을 거둔 몸"},
+        "points":1,
+        "description":"몸 곳곳에 반짝거리고 단단한 수정이 드러났습니다. 방어에 쓰기에는 면적이 좀 딸리네요. 그런데 어디서 많이 본 수정 같습니다....",
+        "valid":false,
+        "types":["SKIN"],
+        "prereqs":["PITCH_HEART"],
+        "threshreq":["THRESH_HOPE_EATER"],
+        "category":["HOPE_EATER"]
+    },
+    {
+        "type":"mutation",
+        "id":"HOPEHAND",
+        "name":{"str":"빛이 부서지는 손끝"},
+        "points":1,
+        "cut_dmg_bonus":6,
+        "description":"손끝에 반짝거리고 단단한 수정이 돋았습니다. 불규칙한 모양이라 해체에는 별 도움이 안되지만, 제법 괜찮은 흉기로 쓸 수 있습니다.",
+        "valid":false,
+        "types":["CLAWS", "HANDS"],
+        "prereqs":["HOPESKIN"],
+        "threshreq":["THRESH_HOPE_EATER"],
+        "category":["HOPE_EATER"]
+    }  
+]

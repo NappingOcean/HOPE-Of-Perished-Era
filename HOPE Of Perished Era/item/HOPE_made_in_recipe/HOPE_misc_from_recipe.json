@@ -1,0 +1,28 @@
+[
+    {
+        "type":"GENERIC",
+        "id":"HOPE_musicbox",
+        "name":{"str_sp":"태엽 오르골"},
+        "description":"가운데에 철심이 빠진 태엽 오르골입니다. 악보가 새겨진 철심이 있다면 아름다운 곡을 연주했겠지만, 지금으로서는 딱히 쓸모가 없습니다.",
+        "category":"other",
+        "symbol":"x",
+        "color":"light_gray",
+        "weight":"450 g",
+        "volume":"250 ml",
+        "material":["iron", "plastic"],
+        "flags":["TRADER_AVOID"]
+    },
+    {
+        "type":"GENERIC",
+        "id":"HOPE_orizuru",
+        "name":{"str_sp":"종이학"},
+        "description":"정성껏 접어서 만든 종이학입니다. 대격변 이전에도 그랬지만, 지금 같은 때엔 특히 더 쓸모가 없습니다. 1천 마리가 모여도 마찬가지입니다.",
+        "category":"other",
+        "symbol":"x",
+        "color":"light_gray",
+        "weight":"3 g",
+        "volume":"10 ml",
+        "material":"paper",
+        "flags":["TRADER_AVOID"]
+    }
+]

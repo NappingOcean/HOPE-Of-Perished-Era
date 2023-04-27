@@ -1,0 +1,30 @@
+[
+    {
+        "type":"item_group",
+        "//":"미개봉 의문의 무술 비급은 다음 중에 하나를 드랍합니다.",
+        "id":"HOPE_MA_books_unpack_group",
+        "subtype":"distribution",
+        "entries":[
+            { "item": "manual_aikido", "prob": 5 },
+            { "item": "manual_capoeira", "prob": 5 },
+            { "item": "manual_judo", "prob": 5 },
+            { "item": "manual_karate", "prob": 5 },
+            { "item": "manual_krav_maga", "prob": 5 },
+            { "item": "manual_muay_thai", "prob": 5 },
+            { "item": "manual_ninjutsu", "prob": 3 },
+            { "item": "manual_pankration", "prob": 5 },
+            { "item": "manual_taekwondo", "prob": 5 },
+            { "item": "manual_tai_chi", "prob": 5 },
+            { "item": "manual_wingchun", "prob": 5 },
+            { "group": "rare_martial_arts_books", "prob": 3 },
+            { "item": "manual_barbaran", "prob": 3 },
+            { "item": "manual_eskrima", "prob": 4 },
+            { "item": "manual_fencing", "prob": 4 },
+            { "item": "manual_medievalpole", "prob": 3 },
+            { "item": "manual_niten", "prob": 3 },
+            { "item": "manual_silat", "prob": 4 },
+            { "item": "manual_sojutsu", "prob": 3 },
+            { "item": "manual_swordsmanship", "prob": 3 }
+        ]
+    }
+]

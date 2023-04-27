@@ -1,0 +1,9 @@
+[
+    {
+        "id":"HOPE_RISE_fake_tool",
+        "copy-from":"fake_item",
+        "type":"TOOL",
+        "name":{"str":"HOPE 추산 절차"},
+        "dsecription":"Fake tool. 이게 보이면 버그입니다."
+    }
+]

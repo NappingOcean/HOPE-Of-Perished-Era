@@ -1,0 +1,16 @@
+[
+    {
+        "id":"HOPE_HOPE",
+        "type":"GENERIC",
+        "//":"이것은 HOPE입니다만, 플레이어로서는 방금 막 얻은 상황에서 이게 뭔지 알 도리가 없습니다.",
+        "symbol":",",
+        "color":"white",
+        "name":{"str_sp":"영롱한 파편" },
+        "description":"좀비의 뇌 속에서 찾은 조그만 결정입니다. 빛을 비추면 무지갯빛으로 빛나지만 예쁜 것 말고는 쓸모가 없어보입니다.",
+        "snippet_category":"HOPE_inside",
+        "price":0,
+        "volume":"0ml",
+        "weight":"1g",
+        "flags":["TRADER_AVOID"]
+    }
+]

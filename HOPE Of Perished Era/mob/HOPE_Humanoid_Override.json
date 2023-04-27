@@ -1,0 +1,20 @@
+[
+    {
+        "type":"MONSTER",
+        "id": "mon_zombie_brainless",
+        "copy-from":"mon_zombie_brainless",
+        "harvest":"zombie_nohead"        
+    },
+    {
+        "type":"MONSTER",
+        "id":"mon_zombie_ears",
+        "copy-from":"mon_zombie_ears",
+        "harvest":"zombie_nohead"
+    },
+    {
+        "type": "MONSTER",
+        "id": "mon_zombie_skull",
+        "copy-from":"mon_zombie_skull",
+        "harvest":"zombie_nohead"
+    }
+]

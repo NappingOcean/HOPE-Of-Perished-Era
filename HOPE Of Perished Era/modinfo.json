@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "HOPE_Of_Perished_Era",
+    "name": "HOPE 모드",
+    "authors": [ "NappingOcean" ],
+    "description": "수집형 컨텐츠를 추가합니다. 좀비로부터 얻는 HOPE의 비밀을 파헤쳐보세요.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

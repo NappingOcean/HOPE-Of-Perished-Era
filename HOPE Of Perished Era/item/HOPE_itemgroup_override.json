@@ -1,0 +1,19 @@
+[
+    {
+        "type": "item_group",
+        "id": "book_survival",
+        "//": "Survival skill books weighted according to level",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "atomic_survival", "prob": 12 },
+          { "item": "fun_survival", "prob": 33 },
+          { "item": "mag_dude", "prob": 100 },
+          { "item": "mag_survival", "prob": 100 },
+          { "item": "manual_survival", "prob": 33 },
+          { "item": "pocket_survival", "prob": 50 },
+          { "item": "survival_book", "prob": 12 },
+          { "item": "textbook_survival", "prob": 17 },
+          { "item": "recipe_HOPE", "prob": 10}
+        ]
+    }
+]
