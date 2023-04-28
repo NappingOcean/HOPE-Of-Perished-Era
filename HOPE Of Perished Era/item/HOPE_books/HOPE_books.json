@@ -10,7 +10,7 @@
         "volume":"250 ml",
         "weight":"440 g",
         "material":["paper"],
-        "use_action":{"type":"unpack", "group":"HOPE_MA_books_unpack_group", "items_fit":true, "filthy_volume_treshold":"10 L"}
+        "use_action":{"type":"unpack", "group":"HOPE_MA_books_unpack_group", "items_fit":true, "filthy_volume_threshold":"10 L"}
     },
     {
         "id":"recipe_HOPE",
