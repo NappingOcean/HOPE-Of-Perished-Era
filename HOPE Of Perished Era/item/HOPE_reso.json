@@ -20,7 +20,7 @@
         "copy-from":"HOPE_reso",
         "name":{"str":"미개봉 HOPE 레조네이터"},
         "description":"모든 메모리를 초기화하고 HOPE의 복원 영상을 저장한 스마트폰입니다. 모든 기능이 사라지고 영상을 재생하기만 하기 때문에 배터리 소비는 비약적으로 줄었습니다. 어떤 영상이 담겨 있을지는 개봉하여 부팅해야 알 수 있습니다.",
-        "use_action":{"type":"unpack", "group":"HOPE_reso_unpack_group", "items_fit":true, "filthy_volume_treshold":"10 L"},
+        "use_action":{"type":"unpack", "group":"HOPE_reso_unpack_group", "items_fit":true, "filthy_volume_threshold":"10 L"},
         "delete":{"flags":["LIGHT_8"]}
     },
     {
