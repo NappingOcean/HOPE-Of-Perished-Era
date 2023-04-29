@@ -16,18 +16,17 @@
         "miss_messages":[["조이를 먹은지 얼마나 됐죠?",1]],
         "morale":"morale_HAP",
         "base_mods":{
-            "morale":[-5],
+            "morale":[-18],
             "str_mod":[-1],
             "dex_mod":[-1],
             "per_mod":[-1],
             "int_mod":[-1]
         },
         "scaling_mods":{
-            "morale":[-7],
             "str_mod":[-1],
             "dex_mod":[-0.7],
             "per_mod":[-1.5],
-            "int_mod":[-1]
+            "int_mod":[-1.7]
         }
     },
     {
@@ -52,15 +51,14 @@
         "removes_effects":["eff_HAP"],
         "morale":"morale_JOYFUL",
         "base_mods":{
-            "morale":[30],
             "str_mod":[2],
             "dex_mod":[2],
             "per_mod":[2],
             "int_mod":[2],
-            "speed_mod":[20]
+            "speed_mod":[20],
+            "morale":[30]
         },
         "scaling_mods":{
-            "morale":[15],
             "str_mod":[1.4],
             "dex_mod":[1.4],
             "per_mod":[1.4],

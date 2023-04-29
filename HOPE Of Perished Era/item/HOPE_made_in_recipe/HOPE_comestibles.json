@@ -51,21 +51,19 @@
     },
     {
         "type":"COMESTIBLE",
-        "id":"HOPE_joy_liquid",
+        "id":"HOPE_joy",
         "name":{"str_sp":"조이"},
-        "comestible_type":"DRINK",
+        "comestible_type":"FOOD",
         "category":"drugs",
-        "description":"수상쩍은 제조법을 따라서 만든 기묘한 물약입니다. 좀비 피처럼 걸쭉하거나 하지는 않습니다.",
+        "description":"수상쩍은 제조법을 따라서 만든 기묘한 사탕 같습니다. 목이 좀 얼얼합니다.\n\n\"좀만 기다려봐! 곧 기분이 좋아질거야!\"",
         "weight": "265 g",
         "volume": "250 ml",
-        "symbol":"~",
+        "symbol":"j",
         "color":"pink",
-        "phase": "liquid",
-        "looks_like": "poppy_pain",
-        "container": "flask_glass",
-        "quench": 50,
-        "use_action":{"type":"cast_spell", "spell_id":"HOPE_JEST", "no_fail":true, "level":0},
-        "vitamins":[["JOYFUL", 80]],
+        "calories":43,
+        "quench": -8,
+        "use_action":{"type":"mutagen", "mutation_category":"HOPE_EATER", "is_weak":true},
+        "vitamins":[["JOYFUL", 80], ["HAP", 60]],
         "flags":["NO_INGEST","NUTRIENT_OVERRIDE"]
     },
     {
@@ -80,6 +78,7 @@
         "symbol":"j",
         "color":"pink",
         "use_action":{"type":"mutagen_iv", "mutation_category":"HOPE_EATER"},
-        "vitamins":[["JOYFUL", 200]]
+        "vitamins":[["JOYFUL", 200], ["HAP", 150]],
+        "flags":["NO_INGEST","NUTRIENT_OVERRIDE"]
     }
 ]

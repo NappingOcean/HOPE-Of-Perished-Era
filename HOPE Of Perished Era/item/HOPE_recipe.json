@@ -35,6 +35,8 @@
         "tools":[[["permanent_marker",-1],["survival_marker",-1]]],
         "components":[
             [["paper", 40]],
+            [["cardboard", 2], ["scrap_leather", 6]],
+            [["cordage_short", 3, "LIST"],["adhesive", 1, "LIST"]],
             [["HOPE_reso_MA_1",1]],
             [["HOPE_reso_MA_2",1]],
             [["HOPE_reso_MA_3",1]],
@@ -157,7 +159,7 @@
     },
     {
         "type":"recipe",
-        "result":"HOPE_joy_liquid",
+        "result":"HOPE_joy",
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_DRUGS",
         "skill_used": "cooking",
